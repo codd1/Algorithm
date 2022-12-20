@@ -1,3 +1,9 @@
+/*
+	문제 2: 특정 숫자의 빈도 계산
+	
+	양의 정수 내에 특정 숫자(0~9 사이의 아라비아 숫자)가 나타나는 횟수를 재귀를 이용하여 계산하여 반환하는 재귀 알고리즘을 작성하라.
+*/
+
 #include <stdio.h>
 
 int countNumber(int num, int index, int count) {		// num: 입력한 숫자, index: 0~9의 숫자, count: 입력된 index(숫자)의 갯수(결과)
